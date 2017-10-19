@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C18BA621754D74A00E732A7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C18BA611754D74A00E732A7 /* SystemConfiguration.framework */; };
+		8C18BA6E175618C400E732A7 /* PLITViewerVC+Controls.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C18BA6D175618C300E732A7 /* PLITViewerVC+Controls.m */; };
+		8C18BA7317562F2300E732A7 /* UINavigationControllerLandscape.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C18BA7017562F2300E732A7 /* UINavigationControllerLandscape.m */; };
+		8C2B02C918ED9D6C0074A406 /* gallery.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C2B02C718ED9D6C0074A406 /* gallery.png */; };
+		8C2B02CA18ED9D6C0074A406 /* gallery@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C2B02C818ED9D6C0074A406 /* gallery@2x.png */; };
+		8C378077177A2E3E00333741 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C378076177A2E3E00333741 /* Entitlements.plist */; };
+		8C378087177AC8A600333741 /* PLITInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C378086177AC8A600333741 /* PLITInfoView.m */; };
+		8C4F7E9E17C278EF005F66C7 /* img_camera_roll.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C4F7E9C17C278EF005F66C7 /* img_camera_roll.png */; };
+		8C4F7E9F17C278EF005F66C7 /* img_camera_roll@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C4F7E9D17C278EF005F66C7 /* img_camera_roll@2x.png */; };
+		8C7E1ABB18E417780054D9B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C7E1ABA18E417780054D9B4 /* Images.xcassets */; };
+		8CAA1BA11928A5F1000D4690 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA1BA01928A5F1000D4690 /* CoreMedia.framework */; };
+		8CAA1BA31928A61C000D4690 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA1BA21928A61C000D4690 /* CoreLocation.framework */; };
+		8CAA1BA41928A62A000D4690 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB949F6174BF7480074DCF7 /* CoreVideo.framework */; };
+		8CB58F2F192A4086002FAC8C /* libDMD_LITE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CBF8C9C1928790600DF3AF0 /* libDMD_LITE.a */; };
+		8CB949C5174BF2AB0074DCF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB949C4174BF2AB0074DCF7 /* UIKit.framework */; };
+		8CB949C7174BF2AB0074DCF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB949C6174BF2AB0074DCF7 /* Foundation.framework */; };
+		8CB949C9174BF2AB0074DCF7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB949C8174BF2AB0074DCF7 /* CoreGraphics.framework */; };
+		8CB949CF174BF2AB0074DCF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CB949CD174BF2AB0074DCF7 /* InfoPlist.strings */; };
+		8CB949D1174BF2AB0074DCF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB949D0174BF2AB0074DCF7 /* main.m */; };
+		8CB949D5174BF2AB0074DCF7 /* PLITAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB949D4174BF2AB0074DCF7 /* PLITAppDelegate.m */; };
+		8CB949F3174BF4F00074DCF7 /* PLITShootingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB949F2174BF4F00074DCF7 /* PLITShootingVC.m */; };
+		8CB949F5174BF71C0074DCF7 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB949F4174BF71C0074DCF7 /* OpenGLES.framework */; };
+		8CB949FB174BF7540074DCF7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB949FA174BF7540074DCF7 /* AVFoundation.framework */; };
+		8CB94A03174BF78D0074DCF7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB94A02174BF78D0074DCF7 /* QuartzCore.framework */; };
+		8CB94A05174BF79C0074DCF7 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB94A04174BF79C0074DCF7 /* CoreMotion.framework */; };
+		8CB94A07174BF7C70074DCF7 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB94A06174BF7C70074DCF7 /* AssetsLibrary.framework */; };
+		8CB94A0B174BFD390074DCF7 /* DMDAssets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8CB94A0A174BFD390074DCF7 /* DMDAssets.bundle */; };
+		8CB94A0E174CF0290074DCF7 /* PLITViewerVC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8CB94A0D174CF0290074DCF7 /* PLITViewerVC.mm */; };
+		8CE566BF17B522780011BF2B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE566BE17B522780011BF2B /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C18BA611754D74A00E732A7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8C18BA6C175618C300E732A7 /* PLITViewerVC+Controls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PLITViewerVC+Controls.h"; sourceTree = "<group>"; };
+		8C18BA6D175618C300E732A7 /* PLITViewerVC+Controls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PLITViewerVC+Controls.m"; sourceTree = "<group>"; };
+		8C18BA6F17562F2300E732A7 /* UINavigationControllerLandscape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UINavigationControllerLandscape.h; path = PanoLite/UINavigationControllerLandscape.h; sourceTree = "<group>"; };
+		8C18BA7017562F2300E732A7 /* UINavigationControllerLandscape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UINavigationControllerLandscape.m; path = PanoLite/UINavigationControllerLandscape.m; sourceTree = "<group>"; };
+		8C2B02C718ED9D6C0074A406 /* gallery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gallery.png; path = PanoLite/gallery.png; sourceTree = "<group>"; };
+		8C2B02C818ED9D6C0074A406 /* gallery@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "gallery@2x.png"; path = "PanoLite/gallery@2x.png"; sourceTree = "<group>"; };
+		8C378076177A2E3E00333741 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		8C378085177AC8A600333741 /* PLITInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLITInfoView.h; sourceTree = "<group>"; };
+		8C378086177AC8A600333741 /* PLITInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLITInfoView.m; sourceTree = "<group>"; };
+		8C4F7E9C17C278EF005F66C7 /* img_camera_roll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_camera_roll.png; path = PanoLite/img_camera_roll.png; sourceTree = "<group>"; };
+		8C4F7E9D17C278EF005F66C7 /* img_camera_roll@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "img_camera_roll@2x.png"; path = "PanoLite/img_camera_roll@2x.png"; sourceTree = "<group>"; };
+		8C7D63D6177FA1550040C3D3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8C7E1ABA18E417780054D9B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8CAA1BA01928A5F1000D4690 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		8CAA1BA21928A61C000D4690 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8CB949C1174BF2AB0074DCF7 /* Pano Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pano Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB949C4174BF2AB0074DCF7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8CB949C6174BF2AB0074DCF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8CB949C8174BF2AB0074DCF7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8CB949CC174BF2AB0074DCF7 /* PanoLite-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PanoLite-Info.plist"; sourceTree = "<group>"; };
+		8CB949CE174BF2AB0074DCF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8CB949D0174BF2AB0074DCF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8CB949D2174BF2AB0074DCF7 /* PanoLite-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PanoLite-Prefix.pch"; sourceTree = "<group>"; };
+		8CB949D3174BF2AB0074DCF7 /* PLITAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLITAppDelegate.h; sourceTree = "<group>"; };
+		8CB949D4174BF2AB0074DCF7 /* PLITAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PLITAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8CB949F1174BF4F00074DCF7 /* PLITShootingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLITShootingVC.h; sourceTree = "<group>"; };
+		8CB949F2174BF4F00074DCF7 /* PLITShootingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PLITShootingVC.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8CB949F4174BF71C0074DCF7 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		8CB949F6174BF7480074DCF7 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		8CB949FA174BF7540074DCF7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8CB94A02174BF78D0074DCF7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8CB94A04174BF79C0074DCF7 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		8CB94A06174BF7C70074DCF7 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		8CB94A0A174BFD390074DCF7 /* DMDAssets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DMDAssets.bundle; sourceTree = "<group>"; };
+		8CB94A0C174CF0290074DCF7 /* PLITViewerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLITViewerVC.h; sourceTree = "<group>"; };
+		8CB94A0D174CF0290074DCF7 /* PLITViewerVC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PLITViewerVC.mm; sourceTree = "<group>"; };
+		8CBF8C9B1928790600DF3AF0 /* DMD_LITE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMD_LITE.h; sourceTree = "<group>"; };
+		8CBF8C9C1928790600DF3AF0 /* libDMD_LITE.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDMD_LITE.a; sourceTree = "<group>"; };
+		8CE566BE17B522780011BF2B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CB949BE174BF2AB0074DCF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CAA1BA41928A62A000D4690 /* CoreVideo.framework in Frameworks */,
+				8CAA1BA31928A61C000D4690 /* CoreLocation.framework in Frameworks */,
+				8CAA1BA11928A5F1000D4690 /* CoreMedia.framework in Frameworks */,
+				8CE566BF17B522780011BF2B /* Security.framework in Frameworks */,
+				8CB94A03174BF78D0074DCF7 /* QuartzCore.framework in Frameworks */,
+				8C18BA621754D74A00E732A7 /* SystemConfiguration.framework in Frameworks */,
+				8CB94A07174BF7C70074DCF7 /* AssetsLibrary.framework in Frameworks */,
+				8CB94A05174BF79C0074DCF7 /* CoreMotion.framework in Frameworks */,
+				8CB949FB174BF7540074DCF7 /* AVFoundation.framework in Frameworks */,
+				8CB58F2F192A4086002FAC8C /* libDMD_LITE.a in Frameworks */,
+				8CB949F5174BF71C0074DCF7 /* OpenGLES.framework in Frameworks */,
+				8CB949C5174BF2AB0074DCF7 /* UIKit.framework in Frameworks */,
+				8CB949C7174BF2AB0074DCF7 /* Foundation.framework in Frameworks */,
+				8CB949C9174BF2AB0074DCF7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C71D3D41796E687000B014D /* Artwork */ = {
+			isa = PBXGroup;
+			children = (
+				8C4F7E9C17C278EF005F66C7 /* img_camera_roll.png */,
+				8C4F7E9D17C278EF005F66C7 /* img_camera_roll@2x.png */,
+				8C2B02C718ED9D6C0074A406 /* gallery.png */,
+				8C2B02C818ED9D6C0074A406 /* gallery@2x.png */,
+			);
+			name = Artwork;
+			sourceTree = "<group>";
+		};
+		8CB949B8174BF2AB0074DCF7 = {
+			isa = PBXGroup;
+			children = (
+				8C71D3D41796E687000B014D /* Artwork */,
+				8C18BA6F17562F2300E732A7 /* UINavigationControllerLandscape.h */,
+				8C18BA7017562F2300E732A7 /* UINavigationControllerLandscape.m */,
+				8CBF8C9B1928790600DF3AF0 /* DMD_LITE.h */,
+				8CBF8C9C1928790600DF3AF0 /* libDMD_LITE.a */,
+				8CB94A0A174BFD390074DCF7 /* DMDAssets.bundle */,
+				8CB949CA174BF2AB0074DCF7 /* PanoLite */,
+				8CB949C3174BF2AB0074DCF7 /* Frameworks */,
+				8CB949C2174BF2AB0074DCF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CB949C2174BF2AB0074DCF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CB949C1174BF2AB0074DCF7 /* Pano Lite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CB949C3174BF2AB0074DCF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CAA1BA21928A61C000D4690 /* CoreLocation.framework */,
+				8CAA1BA01928A5F1000D4690 /* CoreMedia.framework */,
+				8CE566BE17B522780011BF2B /* Security.framework */,
+				8C7D63D6177FA1550040C3D3 /* QuartzCore.framework */,
+				8C18BA611754D74A00E732A7 /* SystemConfiguration.framework */,
+				8CB94A06174BF7C70074DCF7 /* AssetsLibrary.framework */,
+				8CB94A04174BF79C0074DCF7 /* CoreMotion.framework */,
+				8CB94A02174BF78D0074DCF7 /* QuartzCore.framework */,
+				8CB949FA174BF7540074DCF7 /* AVFoundation.framework */,
+				8CB949F6174BF7480074DCF7 /* CoreVideo.framework */,
+				8CB949F4174BF71C0074DCF7 /* OpenGLES.framework */,
+				8CB949C4174BF2AB0074DCF7 /* UIKit.framework */,
+				8CB949C6174BF2AB0074DCF7 /* Foundation.framework */,
+				8CB949C8174BF2AB0074DCF7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CB949CA174BF2AB0074DCF7 /* PanoLite */ = {
+			isa = PBXGroup;
+			children = (
+				8CB949D3174BF2AB0074DCF7 /* PLITAppDelegate.h */,
+				8CB949D4174BF2AB0074DCF7 /* PLITAppDelegate.m */,
+				8CB949F1174BF4F00074DCF7 /* PLITShootingVC.h */,
+				8CB949F2174BF4F00074DCF7 /* PLITShootingVC.m */,
+				8C378085177AC8A600333741 /* PLITInfoView.h */,
+				8C378086177AC8A600333741 /* PLITInfoView.m */,
+				8CB94A0C174CF0290074DCF7 /* PLITViewerVC.h */,
+				8CB94A0D174CF0290074DCF7 /* PLITViewerVC.mm */,
+				8C18BA6C175618C300E732A7 /* PLITViewerVC+Controls.h */,
+				8C18BA6D175618C300E732A7 /* PLITViewerVC+Controls.m */,
+				8C7E1ABA18E417780054D9B4 /* Images.xcassets */,
+				8CB949CB174BF2AB0074DCF7 /* Supporting Files */,
+			);
+			path = PanoLite;
+			sourceTree = "<group>";
+		};
+		8CB949CB174BF2AB0074DCF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C378076177A2E3E00333741 /* Entitlements.plist */,
+				8CB949CC174BF2AB0074DCF7 /* PanoLite-Info.plist */,
+				8CB949CD174BF2AB0074DCF7 /* InfoPlist.strings */,
+				8CB949D0174BF2AB0074DCF7 /* main.m */,
+				8CB949D2174BF2AB0074DCF7 /* PanoLite-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CB949C0174BF2AB0074DCF7 /* PanoLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB949DE174BF2AB0074DCF7 /* Build configuration list for PBXNativeTarget "PanoLite" */;
+			buildPhases = (
+				8CB949BD174BF2AB0074DCF7 /* Sources */,
+				8CB949BE174BF2AB0074DCF7 /* Frameworks */,
+				8CB949BF174BF2AB0074DCF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PanoLite;
+			productName = PanoLite;
+			productReference = 8CB949C1174BF2AB0074DCF7 /* Pano Lite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CB949B9174BF2AB0074DCF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PLIT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Dermandar (Offshore) S.A.L.";
+				TargetAttributes = {
+					8CB949C0174BF2AB0074DCF7 = {
+						DevelopmentTeam = 25E9THCYK2;
+						SystemCapabilities = {
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 8CB949BC174BF2AB0074DCF7 /* Build configuration list for PBXProject "PanoLite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8CB949B8174BF2AB0074DCF7;
+			productRefGroup = 8CB949C2174BF2AB0074DCF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CB949C0174BF2AB0074DCF7 /* PanoLite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CB949BF174BF2AB0074DCF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB949CF174BF2AB0074DCF7 /* InfoPlist.strings in Resources */,
+				8CB94A0B174BFD390074DCF7 /* DMDAssets.bundle in Resources */,
+				8C378077177A2E3E00333741 /* Entitlements.plist in Resources */,
+				8C7E1ABB18E417780054D9B4 /* Images.xcassets in Resources */,
+				8C2B02C918ED9D6C0074A406 /* gallery.png in Resources */,
+				8C2B02CA18ED9D6C0074A406 /* gallery@2x.png in Resources */,
+				8C4F7E9E17C278EF005F66C7 /* img_camera_roll.png in Resources */,
+				8C4F7E9F17C278EF005F66C7 /* img_camera_roll@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CB949BD174BF2AB0074DCF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB949D1174BF2AB0074DCF7 /* main.m in Sources */,
+				8CB949D5174BF2AB0074DCF7 /* PLITAppDelegate.m in Sources */,
+				8CB949F3174BF4F00074DCF7 /* PLITShootingVC.m in Sources */,
+				8CB94A0E174CF0290074DCF7 /* PLITViewerVC.mm in Sources */,
+				8C18BA6E175618C400E732A7 /* PLITViewerVC+Controls.m in Sources */,
+				8C18BA7317562F2300E732A7 /* UINavigationControllerLandscape.m in Sources */,
+				8C378087177AC8A600333741 /* PLITInfoView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8CB949CD174BF2AB0074DCF7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CB949CE174BF2AB0074DCF7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CB949DC174BF2AB0074DCF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CB949DD174BF2AB0074DCF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CB949DF174BF2AB0074DCF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PanoLite/PanoLite-Prefix.pch";
+				INFOPLIST_FILE = "PanoLite/PanoLite-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "Pano Lite";
+				PROVISIONING_PROFILE = "";
+				USE_HEADERMAP = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8CB949E0174BF2AB0074DCF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PanoLite/PanoLite-Prefix.pch";
+				INFOPLIST_FILE = "PanoLite/PanoLite-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "Pano Lite";
+				PROVISIONING_PROFILE = "";
+				USE_HEADERMAP = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CB949BC174BF2AB0074DCF7 /* Build configuration list for PBXProject "PanoLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB949DC174BF2AB0074DCF7 /* Debug */,
+				8CB949DD174BF2AB0074DCF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CB949DE174BF2AB0074DCF7 /* Build configuration list for PBXNativeTarget "PanoLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB949DF174BF2AB0074DCF7 /* Debug */,
+				8CB949E0174BF2AB0074DCF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CB949B9174BF2AB0074DCF7 /* Project object */;
+}
